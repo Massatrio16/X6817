@@ -10,14 +10,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit from lion device
-$(call inherit-product, device/infinix/X6817/device.mk)
+$(call inherit-product, device/infinix/LX6817/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X6817
-PRODUCT_NAME := twrp_X6817
+PRODUCT_NAME := twrp_LX6817
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6817
 PRODUCT_MANUFACTURER := infinix
