@@ -16,8 +16,8 @@ $(call inherit-product, device/infinix/LX6817/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X6817
+PRODUCT_DEVICE := LX6817
 PRODUCT_NAME := twrp_LX6817
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X6817
+PRODUCT_MODEL := Infinix LX6817
 PRODUCT_MANUFACTURER := infinix
