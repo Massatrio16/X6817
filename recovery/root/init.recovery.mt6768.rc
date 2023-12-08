@@ -77,10 +77,9 @@ on property:ro.crypto.state=unencrypted
 
 on property:twrp.decrypt.done=true
     stop mobicore
-    stop keymaster-4-0
+    stop keymaster-4-1
     stop gatekeeper-1-0
 
 on boot
-    start boot-hal-1-1
     start health-hal-2-1
 
